@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+    <tab
+        id="@+id/navigation_analyze"
+        icon="@drawable/ic_search_black_24dp"
+        title="Analyze"
+        activeColor="@color/startblue"
+        />
+    <tab
+        id="@+id/navigation_ask"
+        icon="@drawable/group"
+        title="Ask"
+        activeColor="@color/startblue" />
+    <tab
+        id="@+id/navigation_profile"
+        icon="@drawable/ic_person_black_24dp"
+        title="Profile"
+        activeColor="@color/startblue"/>
+</tabs>

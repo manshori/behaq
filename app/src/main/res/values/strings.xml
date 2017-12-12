@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">behaq</string>
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+    <string name="slide_1_title">Hi,</string>
+    <string name="slide_1_desc">Welcome to beHaq</string>
+    <string name="slide_1_desc2">Smart Search Engine and Social Media to filter</string>
+    <string name="slide_1_desc3">HOAX news</string>
+    <string name="slide_2_title">Analyze</string>
+    <string name="slide_2_desc">Search like Google securely and free HOAX using beHaq.</string>
+    <string name="slide_2_desc2">Analyzing and labeling accurately</string>
+    <string name="slide_3_title">ASK</string>
+    <string name="slide_3_desc">Share and Discuss news to experts.</string>
+    <string name="slide_3_desc2">Get the solution and get points.</string>
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+    <string name="title_activity_fitur">FiturActivity</string>
+    <string name="analyze">Home</string>
+    <string name="ask">Dashboard</string>
+    <string name="profile">Notifications</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

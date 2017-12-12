@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hp.behaq.Fragment.AnalyzeFragment">
+
+    <include layout = "@layout/app_bar"
+        android:id="@+id/app_bar"/>
+
+    <include
+        layout="@layout/searchbar"
+        android:id="@+id/tv_searchbar" />
+
+    <include
+        android:id="@+id/searchbutton"
+        layout="@layout/searchbutton"
+        android:layout_alignEnd="@+id/tv_searchbar"
+        android:layout_alignRight="@+id/tv_searchbar"
+        android:layout_alignTop="@+id/tv_searchbar"
+        android:layout_height="30dp"
+        android:layout_width="30dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Analyze"
+        android:textSize="20dp"
+        android:textColor="@color/startblue"
+        android:textStyle="bold"
+        android:layout_marginTop="25dp"
+        />
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_below="@+id/app_bar"
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:backgroundTint="@color/colorPutih"
+        android:layout_height="match_parent">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <!--<TextView-->
+        <!--android:id="@+id/textView5"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_marginEnd="90dp"-->
+        <!--android:layout_marginRight="90dp"-->
+        <!--android:layout_toLeftOf="@+id/searchbutton"-->
+        <!--android:layout_toStartOf="@+id/searchbutton"-->
+        <!--android:text="Analyze"-->
+        <!--android:textColor="#2298c1"-->
+        <!--android:textStyle="bold"-->
+        <!--android:textSize="20dp" />-->
+
+
+</RelativeLayout>

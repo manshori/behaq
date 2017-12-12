@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="220dp"
+    android:focusable="true"
+    android:id="@+id/rlt_beritaList"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:clickable="true"
+    android:background="?android:attr/selectableItemBackground"
+    android:orientation="vertical"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true">
+
+        <TextView
+            android:id="@+id/judul"
+            android:layout_width="280dp"
+            android:layout_height="25dp"
+            android:layout_alignEnd="@+id/url"
+            android:layout_alignParentTop="true"
+            android:layout_alignRight="@+id/url"
+            android:layout_marginEnd="13dp"
+            android:layout_marginRight="13dp"
+            android:textColor="@color/colorTulisan"
+            android:textSize="19dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/url"
+            android:layout_width="280dp"
+            android:layout_height="16dp"
+            android:layout_marginTop="0dp"
+            android:textSize="12dp"
+            android:textColor="@color/colorTulisan"
+            android:layout_below="@+id/judul"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/deskripsi"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/url"
+            android:layout_marginTop="0dp"
+            android:textColor="@color/colorhitam" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:paddingLeft="5dp"
+            android:src="@drawable/icon_share" />
+
+        <ImageView
+            android:id="@+id/img_sentimen_beritaListRow"
+            android:layout_width="25dp"
+            android:layout_height="30dp"
+            android:layout_above="@+id/url"
+            android:layout_toEndOf="@+id/judul"
+            android:layout_toRightOf="@+id/judul"
+            app:srcCompat="@drawable/logo4" />
+
+</RelativeLayout>
+

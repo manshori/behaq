@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_analyze"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:title="Analyze"
+        />
+
+    <item
+        android:id="@+id/navigation_ask"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:title="Ask" />
+
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@drawable/ic_person_black_24dp"
+        android:title="Profile" />
+
+</menu>
